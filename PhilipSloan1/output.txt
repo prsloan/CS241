@@ -1,0 +1,53 @@
+Welcome to the Binary Search Tree Interface!
+Please enter the initial sequence of numbers, seperated by a space:
+
+51 29 68 90 36 40 22 59 44 99 77 60 27 83 15 75 3
+
+ Pre-Order Traversal :
+51 29 22 15 3 27 36 40 44 68 59 60 90 77 75 83 99
+ In-Order Traversal :
+3 15 22 27 29 36 40 44 51 59 60 68 75 77 83 90 99
+ Post-Order Traversal :
+3 15 27 22 44 40 36 29 60 59 75 83 77 99 90 68 51
+
+I  Insert a Value
+D  Delete a value
+P  Find Predecessor
+S  Find Successor
+E  Exit the Program
+H  Display this Message
+Command :i 88
+Successfully added 88
+
+In-Order Traversal :3 15 22 27 29 36 40 44 51 59 60 68 75 77 83 88 90 99
+Command :i 42
+Successfully added 42
+
+In-Order Traversal :3 15 22 27 29 36 40 42 44 51 59 60 68 75 77 83 88 90 99
+Command :i 22
+22 is already in tree. Ignore.
+
+Command :d 44
+Successfully Removed44
+
+In-Order Traversal :3 15 22 27 29 36 40 42 51 59 60 68 75 77 83 88 90 99
+Command :d 90
+Successfully Removed90
+
+In-Order Traversal :3 15 22 27 29 36 40 42 51 59 60 68 75 77 83 88 99
+Command :d 70
+70 is not in tree.
+
+Command :d 68
+Successfully Removed68
+
+In-Order Traversal :3 15 22 27 29 36 40 42 51 59 60 75 77 83 88 99
+Command :s 75
+77
+
+Command :p 99
+88
+
+Command :e
+
+ Thanks for using me. Goodbye!
